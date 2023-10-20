@@ -1,9 +1,9 @@
-import { Hero } from "../components/agence/component/hero";
+import { AgenceComponents } from "../components/agence/AgenceComponents";
 
 export default function Agence() {
   return (
     <div>
-      <Hero />
+      <AgenceComponents />
     </div>
   );
 }
