@@ -36,8 +36,8 @@ export function ContentAgence() {
     );
   }
   return (
-    <section className="sm:container  mx-auto w-[280px] md:max-w-[700px] xl:max-w-screen-lg 2xl:max-w-screen-2xl">
-      <div className="mt-36 flex flex-wrap max-w-max ">
+    <section className=" mt-8 md:mt-20 2xl:mt-36 sm:container  mx-auto w-[280px] md:max-w-[700px] xl:max-w-screen-lg 2xl:max-w-screen-2xl">
+      <div className="  flex flex-wrap max-w-max ">
         <h4 className="text-3xl text-[#f8f8f8] mb-8  sm:w-96">
           {data.page.agence.titrePremiereSection}
         </h4>
@@ -79,7 +79,7 @@ export function ContentAgence() {
               {data.page.agence.imageTroisiemeSection.map((image, index) => (
                 <li
                   key={index}
-                  className="flex flex-row mb-4 w-[280x] h-[280px] sm:w-[340px] sm:h-[340px]  sm:mb-6 md:mb-16 lg:mb-0 mx-auto "
+                  className="flex flex-row mb-4 w-[280x] h-[280px] sm:w-[340px] sm:h-[340px]  sm:mb-6 md:mb-16 lg:mb-8 mx-auto "
                 >
                   <img
                     className="object-cover rounded-lg aspect-square "
