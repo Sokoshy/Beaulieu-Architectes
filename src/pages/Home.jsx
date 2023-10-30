@@ -1,8 +1,9 @@
-import { CardsEx } from "../components/CardsEx";
+import { HomeComponents } from "../components/home/HomeComponents";
+
 export default function Home() {
   return (
     <>
-      <CardsEx />
+      <HomeComponents />
     </>
   );
 }
