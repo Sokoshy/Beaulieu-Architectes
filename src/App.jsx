@@ -18,6 +18,10 @@ const router = createBrowserRouter([
     path: "/agence",
     element: <Agence />,
   },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
 ]);
 
 function App() {
