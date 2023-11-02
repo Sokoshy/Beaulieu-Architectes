@@ -11,6 +11,7 @@ const GET_POSTS = gql`
         featuredImage {
           node {
             sourceUrl
+            altText
           }
         }
       }
@@ -88,9 +89,9 @@ export function PostList() {
                   : "w-[270px] h-[200px] object-cover rounded-2xl 2xl:w-[554px] 2xl:h-[724px] xl:w-[334px] xl:h-[514px] md:w-[441px] md:h-[388px] "
               }`}
               src={post.featuredImage.node.sourceUrl}
-              alt={post.title}
+              alt={post.featuredImage.node.altText}
             />
-            <h2
+            <h4
               className={`${
                 index % 6 === 0
                   ? "max-w-[270px]  2xl:max-w-[501px] max-h-[200px] xl:max-w-[401px] md:max-w-[441px] mt-1 text-center"
@@ -106,7 +107,7 @@ export function PostList() {
               }`}
             >
               {post.title}
-            </h2>
+            </h4>
             {/* Ajoutez d'autres éléments selon les champs récupérés */}
           </article>
         ))}
