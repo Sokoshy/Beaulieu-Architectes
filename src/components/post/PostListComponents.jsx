@@ -117,6 +117,7 @@ export function PostList() {
           <button
             className="font-medium text-[#404040] mt-5 mb-4 bg-[#dcb854] px-[32.2px] py-[11px] rounded-lg xl:mt-8 2xl:mt-10 hover:scale-110"
             onClick={loadMorePosts}
+            disabled={loading}
           >
             Load More
           </button>
