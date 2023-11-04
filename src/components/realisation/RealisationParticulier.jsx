@@ -2,7 +2,7 @@ import { gql, useQuery } from "@apollo/client";
 import React, { useState, useEffect } from "react";
 
 const GET_REALISATIONS = gql`
-  query RealisationParticyulier(
+  query RealisationParticulier(
     $first: Int
     $after: String
     $name: [String] = "Particulier"

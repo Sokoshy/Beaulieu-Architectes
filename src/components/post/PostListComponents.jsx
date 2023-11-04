@@ -108,7 +108,6 @@ export function PostList() {
             >
               {post.title}
             </h4>
-            {/* Ajoutez d'autres éléments selon les champs récupérés */}
           </article>
         ))}
       </div>
