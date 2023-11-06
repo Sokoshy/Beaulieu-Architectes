@@ -28,6 +28,7 @@
 p#toglle::after {
   transform: translateX(110px);
   scale: 1.18;
+  transition: transform 0.3s ease;
 }
 
 @media screen and (min-width: 1280px) {
