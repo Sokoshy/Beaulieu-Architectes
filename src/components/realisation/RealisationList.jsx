@@ -21,13 +21,10 @@ export function RealisationList() {
               id="toggle"
               //id={`toggle ${checked ? "checked" : ""}`}
             />
-            <label for="toggle" className="LabelBtn">
+            <label htmlFor="toggle" className="LabelBtn">
               <p
                 className="text-lg xl:text-xl font-medium"
                 id={checked ? "toglle" : ""}
-                // className={`text-lg xl:text-xl font-medium ${
-                //   checked ? "toglle" : ""
-                // }`}
               >
                 Particuliers<span className="ml-5">Professionels</span>
               </p>
