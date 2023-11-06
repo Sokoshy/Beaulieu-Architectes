@@ -42,7 +42,6 @@ export function RealisationProfessionnel() {
 
   useEffect(() => {
     if (data) {
-      console.log("Data:", data);
       setPageInfo(
         data?.categoriesRealisations?.nodes[0]?.realisations?.pageInfo
       );
@@ -69,9 +68,9 @@ export function RealisationProfessionnel() {
       ]);
     });
   };
-  console.log(loadMoreRealisations);
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {error.message}</p>;
+  if (loading) return;
+  if (error)
+    return <p className="text-3xl text-[#f8f8f8]">Error: {error.message}</p>;
 
   return (
     <section className="w-[280px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl xl:max-w-screen-lg md:max-w-[700px]  sm:container">
