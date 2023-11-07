@@ -6,6 +6,7 @@ import Prestation from "./pages/Prestation";
 import Agence from "./pages/Agence";
 import Realisation from "./pages/Realisation";
 import Blog from "./pages/Blog";
+import BlogPage from "./pages/BlogPage";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <Blog />,
+  },
+  {
+    path: "/blog/:slug",
+    element: <BlogPage />,
   },
   {
     path: "/realisation",
