@@ -44,7 +44,7 @@ export function Equipe() {
 
   return (
     <section className=" w-[300px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl 2xl:mt-36 xl:max-w-screen-lg md:max-w-[700px] md:mt-20 sm:container overflow-visible">
-      <h2 className=" text-3xl font-semibold text-center 2xl:text-[80px] xl:text-start md:text-5xl">
+      <h2 className="text-3xl font-semibold text-center 2xl:text-[5rem] xl:text-start md:text-5xl">
         NOTRE ÉQUIPE
       </h2>
       <>
@@ -72,9 +72,9 @@ export function Equipe() {
               alt={equipe.photoPersonne2.altText}
             />
             <div>
-              <h3 className=" 2xl:text-3xl xl:text-2xl text-center">
+              <h4 className=" 2xl:text-3xl xl:text-2xl text-center">
                 {equipe.nomPersonne2Equipe}
-              </h3>
+              </h4>
               <p className="text-base text-center  2xl:text-xl">
                 {equipe.professionPersonne2}
               </p>
@@ -87,9 +87,9 @@ export function Equipe() {
               alt={equipe.photoPersonne3.altText}
             />
             <div>
-              <h3 className=" 2xl:text-3xl xl:text-2xl text-center">
+              <h4 className=" 2xl:text-3xl xl:text-2xl text-center">
                 {equipe.nomPersonne3Equipe}
-              </h3>
+              </h4>
               <p className="text-base text-center  2xl:text-xl">
                 {equipe.professionPersonne3}
               </p>

@@ -51,9 +51,9 @@ export function Prestation() {
         </Link>
         <div>
           <div className="mt-5">
-            <h3 className="text-xl text-center 2xl:text-3xl xl:text-start xl:text-2xl md:text-2xl">
+            <h4 className="text-xl text-center 2xl:text-3xl xl:text-start xl:text-2xl md:text-2xl">
               Pour les particuliers
-            </h3>
+            </h4>
             <p className=" max-w-[270px] mt-2.5 text-base 2xl:text-xl sm:max-w-[450px] ">
               {prestation.texteBrefPrestationParticulier}
             </p>
@@ -73,9 +73,9 @@ export function Prestation() {
         </Link>
         <div className="xl:text-end ">
           <div className="mt-5">
-            <h3 className="text-xl text-center 2xl:text-3xl xl:text-end xl:text-2xl  md:text-2xl">
+            <h4 className="text-xl text-center 2xl:text-3xl xl:text-end xl:text-2xl  md:text-2xl">
               Pour les particuliers
-            </h3>
+            </h4>
             <p className="mt-2.5 max-w-[270px] text-base 2xl:text-xl sm:max-w-[450px] ">
               {prestation.texteBrefPrestationPro}
             </p>
