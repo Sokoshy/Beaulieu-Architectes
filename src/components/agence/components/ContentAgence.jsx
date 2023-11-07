@@ -41,7 +41,7 @@ export function ContentAgence() {
         <h4 className="text-3xl text-[#f8f8f8] mb-8  sm:w-96">
           {data.page.agence.titrePremiereSection}
         </h4>
-        <p className="text-[#f8f8f8] max-w-4xl  ">
+        <p className="text-[#f8f8f8] max-w-4xl  2xl:text-xl">
           {data.page.agence.textePremiereSection}
         </p>
       </div>
@@ -50,7 +50,7 @@ export function ContentAgence() {
           {data.page.agence.titreDeuxiemeSection}
         </h4>
         <div>
-          <p className="text-[#f8f8f8] mb-8  max-w-[968px]">
+          <p className="text-[#f8f8f8] mb-8  max-w-[968px] 2xl:text-xl">
             {data.page.agence.texteDeuxiemeSection}
           </p>
           <div>
