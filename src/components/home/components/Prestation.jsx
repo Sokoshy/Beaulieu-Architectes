@@ -58,7 +58,7 @@ export function Prestation() {
               {prestation.texteBrefPrestationParticulier}
             </p>
           </div>
-          <button className="hidden mt-3 font-medium text-[#404040] 2xl:mt-2 xl:bg-[#dcb854] xl:px-[32.2px] xl:py-[11px] xl:rounded-lg xl:block xl:mt-2">
+          <button className="hidden mt-3 font-medium text-[#404040] 2xl:mt-2 hover:scale-110 xl:bg-[#dcb854] xl:px-[32.2px] xl:py-[11px] xl:rounded-lg xl:block xl:mt-2">
             <Link to="/">En savoir plus</Link>
           </button>
         </div>
@@ -80,7 +80,7 @@ export function Prestation() {
               {prestation.texteBrefPrestationPro}
             </p>
           </div>
-          <button className="hidden font-medium text-[#404040] mt-3 ml-[62%] 2xl:mt-2 xl:bg-[#dcb854] xl:items-end xl:block  xl:mt-2 xl:px-[32.2px] xl:py-[11px] xl:rounded-lg">
+          <button className="hidden font-medium text-[#404040] mt-3 ml-[62%] 2xl:mt-2 hover:scale-110 xl:bg-[#dcb854] xl:items-end xl:block  xl:mt-2 xl:px-[32.2px] xl:py-[11px] xl:rounded-lg">
             <Link to="/">En savoir plus</Link>
           </button>
         </div>
