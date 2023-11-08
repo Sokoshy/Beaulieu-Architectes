@@ -44,9 +44,9 @@ export function Slider() {
       <div className="slider flex justify-center overflow-hidden">
         <div className="preview prev mr-8">
           <img
-            className="rounded-lg mt-[2.5vh] max-w-[112px] max-h-[151px]"
+            className="rounded-lg mt-[2.5vh] max-w-[112px] max-h-[151px] object-cover"
             src={slides[prevIndex].image}
-            alt="Aperçu précédent"
+            alt={slides[prevIndex].alt}
           />
         </div>
 
@@ -69,9 +69,9 @@ export function Slider() {
 
         <div className="preview next">
           <img
-            className="rounded-lg mt-[2.5vh] ml-8 max-w-[112px] max-h-[151px]"
+            className="rounded-lg mt-[2.5vh] ml-8 max-w-[112px] max-h-[151px] object-cover"
             src={slides[nextIndex].image}
-            alt="Aperçu suivant"
+            alt={slides[nextIndex].alt}
           />
         </div>
       </div>

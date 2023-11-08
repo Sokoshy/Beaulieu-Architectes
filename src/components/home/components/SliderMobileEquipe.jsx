@@ -73,7 +73,7 @@ function Slider() {
       <div className="slider flex justify-center overflow-hidden">
         <div className=" preview prev mr-8 ">
           <img
-            className="rounded-lg mt-[2.5vh] max-w-[112px] max-h-[151px]"
+            className="rounded-lg mt-[2.5vh] max-w-[112px] max-h-[151px] object-cover"
             src={slides[prevIndex].image}
             alt="Aperçu précédent"
           />
@@ -87,7 +87,7 @@ function Slider() {
             {index === current && (
               <div className="flex flex-col items-center">
                 <img
-                  className=" rounded-lg max-w-[160px] max-h-[215px]"
+                  className=" rounded-lg max-w-[160px] max-h-[215px] object-cover"
                   src={slide.image}
                   alt={slide.name}
                 />
@@ -104,7 +104,7 @@ function Slider() {
 
         <div className="preview next">
           <img
-            className="rounded-lg mt-[2.5vh] ml-8 max-w-[112px] max-h-[151px] overflow-auto"
+            className="rounded-lg mt-[2.5vh] ml-8 max-w-[112px] max-h-[151px] object-cover overflow-auto"
             src={slides[nextIndex].image}
             alt="Aperçu suivant"
           />
@@ -112,13 +112,13 @@ function Slider() {
       </div>
       <div className=" relative">
         <button
-          className="absolute bottom-[5.4vh] font-bold text-[#dcb854] text-3xl"
+          className="absolute bottom-[5.4vh] md:bottom-[0vh] left-4 sm:left-16 md:left-24 font-bold text-[#dcb854] text-3xl"
           onClick={prevSlide}
         >
           &#10094;
         </button>
         <button
-          className="absolute bottom-[5.4vh] right-0 font-bold text-[#dcb854] text-3xl"
+          className="absolute bottom-[5.4vh] md:bottom-[0vh] right-4 sm:right-16 md:right-24 font-bold text-[#dcb854] text-3xl"
           onClick={nextSlide}
         >
           &#10095;
