@@ -35,7 +35,11 @@ export function RealisationProfessionnel() {
   });
   if (loading) return;
   if (error)
-    return <p className="text-3xl text-[#f8f8f8]">Error: {error.message}</p>;
+    return (
+      <p className="text-3xl mt-3 text-[#f8f8f8] text-center">
+        Error: {error.message}
+      </p>
+    );
   const realisations =
     data?.categoriesRealisations?.nodes[0]?.realisations?.nodes;
 
@@ -103,7 +107,7 @@ export function RealisationProfessionnel() {
                     </p>
                   ))}
               <div className="flex justify-center xl:block">
-                <button className="font-medium text-[#404040] mt-3 2xl:mt-2.5 text-base px-[32.2px] py-[11px] rounded-lg xl:text-lg 2xl:text-xl bg-[#dcb854] xl:mt-2 xl:px-[32.2px] xl:py-[11px] xl:rounded-lg">
+                <button className="font-medium text-[#404040] mt-3 2xl:mt-2.5 text-base px-[32.2px] py-[11px] rounded-lg hover:scale-110 xl:text-lg 2xl:text-xl bg-[#dcb854] xl:mt-2 xl:px-[32.2px] xl:py-[11px] xl:rounded-lg">
                   Plus sur le projet
                 </button>
               </div>
