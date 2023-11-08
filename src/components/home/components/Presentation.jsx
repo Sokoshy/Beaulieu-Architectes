@@ -20,12 +20,19 @@ const GET_PRESENTATION_ACCEUIL = gql`
 export function Presentation() {
   const { loading, error, data } = useQuery(GET_PRESENTATION_ACCEUIL);
   if (loading)
-    return <p className="text-3xl mt-5 text-[#f8f8f8]">Loading content…</p>;
-  if (error) return <p className="text-3xl text-[#f8f8f8]">Error :( </p>;
+    return (
+      <p className="text-3xl mt-3 text-[#f8f8f8] text-center">
+        Loading content…
+      </p>
+    );
+  if (error)
+    return (
+      <p className="text-3xl mt-3 text-[#f8f8f8] text-center">Error :( </p>
+    );
   const contentFound = Boolean(data?.page.acceuil);
   if (!contentFound) {
     return (
-      <p className="text-3xl text-[#f8f8f8] mx-auto">
+      <p className="text-3xl mt-3 text-[#f8f8f8] text-center">
         No matching content found.
       </p>
     );

@@ -49,8 +49,16 @@ export function PostList() {
     });
   };
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {error.message}</p>;
+  if (loading)
+    return (
+      <p className="text-3xl mt-3 text-[#f8f8f8] text-center">Loading...</p>
+    );
+  if (error)
+    return (
+      <p className="text-3xl mt-3 text-[#f8f8f8] text-center">
+        Error: {error.message}
+      </p>
+    );
 
   return (
     <section className="w-[280px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl xl:max-w-screen-lg md:max-w-[700px]  sm:container">

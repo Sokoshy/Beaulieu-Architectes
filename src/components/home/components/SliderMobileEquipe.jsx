@@ -35,7 +35,8 @@ function Slider() {
   const [current, setCurrent] = useState(0);
 
   if (loading) return;
-  if (error) return <p className="text-3xl text-[#f8f8f8]">Error :(</p>;
+  if (error)
+    return <p className="text-3xl mt-3 text-[#f8f8f8] text-center">Error :(</p>;
 
   const slides = [
     {

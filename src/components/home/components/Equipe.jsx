@@ -31,11 +31,14 @@ const GET_EQUIPE = gql`
 export function Equipe() {
   const { loading, error, data } = useQuery(GET_EQUIPE);
   if (loading) return;
-  if (error) return <p className="text-3xl text-[#f8f8f8]">Error :( </p>;
+  if (error)
+    return (
+      <p className="text-3xl mt-3 text-[#f8f8f8] text-center">Error :( </p>
+    );
   const contentFound = Boolean(data?.page.acceuil);
   if (!contentFound) {
     return (
-      <p className="text-3xl text-[#f8f8f8] mx-auto">
+      <p className="text-3xl mt-3 text-[#f8f8f8] text-center">
         No matching content found.
       </p>
     );
