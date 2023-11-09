@@ -4,6 +4,7 @@ import { Hero } from "./components/Hero";
 import { ParleDeNous } from "./components/ParleDeNous";
 import { Presentation } from "./components/Presentation";
 import { Prestation } from "./components/Prestation";
+import { Avis } from "./components/avis/Avis";
 import { Realisation } from "./components/realisation/Realisation";
 
 export function HomeComponents() {
@@ -14,6 +15,7 @@ export function HomeComponents() {
       <Realisation />
       <Prestation />
       <Blog />
+      <Avis />
       <Equipe />
       <ParleDeNous />
     </div>
