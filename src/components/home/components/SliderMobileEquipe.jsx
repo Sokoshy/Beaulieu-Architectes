@@ -91,9 +91,9 @@ function Slider() {
                   src={slide.image}
                   alt={slide.name}
                 />
-                <h3 className="w-[162px] sm:w-[200px] text-center text-[20px] texte-xl mt-4">
+                <h4 className="w-[162px] sm:w-[200px] text-center text-[20px] texte-xl mt-4">
                   {slide.name}
-                </h3>
+                </h4>
                 <p className="w-[172px] sm:w-[200px] text-center text-base">
                   {slide.profession}
                 </p>
