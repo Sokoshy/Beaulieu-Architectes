@@ -72,10 +72,10 @@ export function Blog() {
               <h4
                 className={` ${
                   index % 3 === 0
-                    ? "max-w-[270px] 2xl:max-w-[530px] xl:max-w-[344px] sm:max-w-[450px] mt-1 mb-2.5  2xl:text-3xl xl:text-2xl md:text-2xl text-center xl:text-start"
+                    ? "max-w-[270px] text-xl 2xl:max-w-[530px] xl:max-w-[344px] sm:max-w-[450px] mt-1 mb-2.5  2xl:text-3xl xl:text-2xl md:text-2xl text-center xl:text-start"
                     : index % 3 === 1
-                    ? "max-w-[270px] 2xl:max-w-[414px] xl:max-w-[300px] sm:max-w-[450px] mt-1 mb-2.5 2xl:text-3xl xl:text-2xl md:text-2xl text-center xl:text-start"
-                    : "max-w-[270px] 2xl:max-w-[450px] xl:max-w-[350px] sm:max-w-[450px] mt-4 mb-2.5 2xl:text-3xl xl:text-2xl md:text-2xl text-center xl:text-start"
+                    ? "max-w-[270px] text-xl 2xl:max-w-[414px] xl:max-w-[300px] sm:max-w-[450px] mt-1 mb-2.5 2xl:text-3xl xl:text-2xl md:text-2xl text-center xl:text-start"
+                    : "max-w-[270px] text-xl 2xl:max-w-[450px] xl:max-w-[350px] sm:max-w-[450px] mt-4 mb-2.5 2xl:text-3xl xl:text-2xl md:text-2xl text-center xl:text-start"
                 }`}
               >
                 {post.title}

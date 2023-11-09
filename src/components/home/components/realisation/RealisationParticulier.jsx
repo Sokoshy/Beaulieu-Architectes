@@ -78,10 +78,10 @@ export function RealisationParticulier() {
               <h4
                 className={` ${
                   index % 3 === 0
-                    ? "max-w-[270px] 2xl:max-w-[530px] 2xl:text-3xl xl:max-w-[344px] sm:max-w-[450px] mt-1 mb-2.5  md:text-2xl text-center xl:text-start"
+                    ? "max-w-[270px] 2xl:max-w-[530px] text-xl 2xl:text-3xl xl:max-w-[344px] sm:max-w-[450px] mt-1 mb-2.5  md:text-2xl text-center xl:text-start"
                     : index % 3 === 1
-                    ? "max-w-[270px] 2xl:max-w-[414px] 2xl:text-3xl xl:max-w-[300px] sm:max-w-[450px] mt-1 mb-2.5 md:text-2xl text-center xl:text-start"
-                    : "max-w-[270px] 2xl:max-w-[450px] 2xl:text-3xl xl:max-w-[350px] sm:max-w-[450px] mt-4 mb-2.5 md:text-2xl text-center xl:text-start"
+                    ? "max-w-[270px] 2xl:max-w-[414px] text-xl 2xl:text-3xl xl:max-w-[300px] sm:max-w-[450px] mt-1 mb-2.5 md:text-2xl text-center xl:text-start"
+                    : "max-w-[270px] 2xl:max-w-[450px] text-xl 2xl:text-3xl xl:max-w-[350px] sm:max-w-[450px] mt-4 mb-2.5 md:text-2xl text-center xl:text-start"
                 }`}
               >
                 {realisation.title}
