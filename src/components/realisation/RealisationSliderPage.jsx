@@ -53,7 +53,7 @@ export function RealisationSliderAvant() {
     <div className="flex items-center justify-center overflow-hidden mt-8 xl:mt-16">
       {/* Slide précédente */}
       <img
-        className="rounded-lg w-[112px] h-[151px] 2xl:w-[413px] 2xl:h-[518px] xl:rounded-xl xl:w-[242px] xl:h-[310px] md:w-[165px] md:h-[214px]"
+        className="rounded-lg object-cover w-[112px] h-[151px] 2xl:w-[413px] 2xl:h-[518px] xl:rounded-xl xl:w-[242px] xl:h-[310px] md:w-[165px] md:h-[214px]"
         src={
           imagesArrive[
             (imgArriveCourante - 1 + imagesArrive.length) % imagesArrive.length
@@ -86,7 +86,7 @@ export function RealisationSliderAvant() {
       </button>
       {/* Slide suivante */}
       <img
-        className="rounded-lg w-[112px] h-[151px] 2xl:w-[413px] 2xl:h-[518px] xl:rounded-xl xl:w-[242px] xl:h-[310px] md:w-[165px] md:h-[214px]"
+        className="rounded-lg object-cover w-[112px] h-[151px] 2xl:w-[413px] 2xl:h-[518px] xl:rounded-xl xl:w-[242px] xl:h-[310px] md:w-[165px] md:h-[214px]"
         src={
           imagesArrive[(imgArriveCourante + 1) % imagesArrive.length].sourceUrl
         }
@@ -134,7 +134,7 @@ export function RealisationSliderApres() {
       {/* Slide précédente */}
 
       <img
-        className="rounded-lg w-[112px] h-[151px] 2xl:w-[413px] 2xl:h-[518px] xl:rounded-xl xl:w-[242px] xl:h-[310px] md:w-[165px] md:h-[214px]"
+        className="rounded-lg object-cover w-[112px] h-[151px] 2xl:w-[413px] 2xl:h-[518px] xl:rounded-xl xl:w-[242px] xl:h-[310px] md:w-[165px] md:h-[214px]"
         src={
           imagesApres[
             (imgApresCourante - 1 + imagesApres.length) % imagesApres.length
@@ -154,7 +154,7 @@ export function RealisationSliderApres() {
         &#10094;
       </button>
       <img
-        className="rounded-lg w-[160px] h-[215px] object-cover 2xl:w-[582px] 2xl:h-[712px] xl:rounded-xl xl:w-[410px] xl:h-[510px] md:w-[276px] md:h-[344px]"
+        className="rounded-lg  w-[160px] h-[215px] object-cover 2xl:w-[582px] 2xl:h-[712px] xl:rounded-xl xl:w-[410px] xl:h-[510px] md:w-[276px] md:h-[344px]"
         src={imagesApres[imgApresCourante].sourceUrl}
         alt={imagesApres[imgApresCourante].altText}
       />
@@ -166,7 +166,7 @@ export function RealisationSliderApres() {
       </button>
       {/* Slide suivante */}
       <img
-        className="rounded-lg w-[112px] h-[151px] 2xl:w-[413px] 2xl:h-[518px] xl:rounded-xl xl:w-[242px] xl:h-[310px] md:w-[165px] md:h-[214px]"
+        className="rounded-lg object-cover w-[112px] h-[151px] 2xl:w-[413px] 2xl:h-[518px] xl:rounded-xl xl:w-[242px] xl:h-[310px] md:w-[165px] md:h-[214px]"
         src={imagesApres[(imgApresCourante + 1) % imagesApres.length].sourceUrl}
         alt={imagesApres[(imgApresCourante + 1) % imagesApres.length].altText}
       />
