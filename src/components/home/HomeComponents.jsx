@@ -9,7 +9,7 @@ import { Realisation } from "./components/realisation/Realisation";
 
 export function HomeComponents() {
   return (
-    <div>
+    <>
       <Hero />
       <Presentation />
       <Realisation />
@@ -18,6 +18,6 @@ export function HomeComponents() {
       <Avis />
       <Equipe />
       <ParleDeNous />
-    </div>
+    </>
   );
 }

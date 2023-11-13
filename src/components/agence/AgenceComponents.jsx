@@ -3,9 +3,9 @@ import { Hero } from "./components/Hero";
 
 export function AgenceComponents() {
   return (
-    <div>
+    <>
       <Hero />
       <ContentAgence />
-    </div>
+    </>
   );
 }
