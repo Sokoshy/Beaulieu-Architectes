@@ -8,6 +8,7 @@ import Realisation from "./pages/Realisation";
 import Blog from "./pages/Blog";
 import BlogPage from "./pages/BlogPage";
 import RealisationPage from "./pages/RealistionPage";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/realisation/:slug",
     element: <RealisationPage />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
