@@ -1,4 +1,3 @@
-import "./hero.scss";
 import { gql, useQuery } from "@apollo/client";
 
 const GET_IMG_AGENCE = gql`
