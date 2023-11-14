@@ -26,7 +26,6 @@ export function PrestationTroiParticulier() {
       <p className="text-3xl text-[#f8f8f8]">Error content not loading :( </p>
     );
   const prestationTrois = data.prestation.prestation;
-  console.log(prestationTrois);
   return (
     <section className=" mt-8 md:mt-20 2xl:mt-36 sm:container  mx-auto w-[280px] md:max-w-[700px] xl:max-w-screen-lg 2xl:max-w-screen-2xl">
       <div className="flex flex-col gap-8 items-center xl:flex-wrap xl:flex-row xl:gap-0 text-[#f8f8f8]">
