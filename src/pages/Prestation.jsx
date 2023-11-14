@@ -1,10 +1,9 @@
+import { PrestationComponents } from "../components/prestation/PrestationComponents";
+
 export default function Prestation() {
   return (
     <>
-      <p>En brrrrrr</p>
-      <div>
-        <p>blala</p>
-      </div>
+      <PrestationComponents />
     </>
   );
 }
