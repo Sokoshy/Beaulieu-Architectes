@@ -21,7 +21,7 @@ export function ContactInfo() {
   if (loading) return;
   if (error)
     return (
-      <p className="text-3xl text-[#f8f8f8]">Error Picture not loading :( </p>
+      <p className="text-3xl text-[#f8f8f8]">Error content not loading :( </p>
     );
   const contactInfo = data.page.contact;
 
