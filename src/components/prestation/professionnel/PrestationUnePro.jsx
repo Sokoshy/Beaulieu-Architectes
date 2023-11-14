@@ -1,7 +1,7 @@
 import { gql, useQuery } from "@apollo/client";
 
 const GET_PREATATION_UNE = gql`
-  query Contactinfo($pageId: ID!) {
+  query PrestationPro($pageId: ID!) {
     prestation(id: $pageId, idType: DATABASE_ID) {
       prestation {
         titreDeLaPrestation1
