@@ -9,6 +9,7 @@ import Blog from "./pages/Blog";
 import BlogPage from "./pages/BlogPage";
 import RealisationPage from "./pages/RealistionPage";
 import Contact from "./pages/Contact";
+import Devis from "./pages/Devis";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/devis",
+    element: <Devis />,
   },
 ]);
 
