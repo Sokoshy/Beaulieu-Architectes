@@ -34,7 +34,7 @@ export function Renseignement() {
       <h3 className="font-semibold text-2xl my-3 text-center 2xl:text-[40px] 2xl:my-12  xl:my-8 sm:text-[32px] sm:my-5">
         ou
       </h3>
-      <Link>
+      <Link to={`/devis`}>
         <h3 className="font-semibold text-2xl text-center 2xl:text-[40px] sm:text-[32px] hover:underline hover:underline-offset-8 hover:decoration-[#dcb854]">
           Demander un devis
         </h3>
