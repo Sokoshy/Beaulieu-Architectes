@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { gql, useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
+import Nav from "../nav/Nav";
 
 const GET_POSTS = gql`
   query GetPosts($first: Int, $after: String) {
@@ -61,8 +62,8 @@ export function PostList() {
     );
 
   return (
-    <section className="w-[280px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl xl:max-w-screen-lg md:max-w-[700px]  sm:container">
-      <h1 className=" text-5xl text-center font-bold 2xl:text-[5.625rem] 2xl:mt-20 xl:mt-14 xl:text-start  md:text-7xl ">
+    <section className="w-[280px] mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl xl:max-w-screen-lg md:max-w-[700px] sm:container">
+      <h1 className=" text-5xl mt-20 text-center font-bold 2xl:text-[5.625rem]  xl:text-start  md:text-7xl ">
         Blog
       </h1>
       <div className="flex flex-col gap-5 items-center text-lg xl:flex-row xl:flex-wrap xl:gap-0 xl:items-stretch lg:text-xl  2xl:text-2xl">
