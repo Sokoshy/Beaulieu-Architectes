@@ -7,9 +7,9 @@ export function PrestationComponents() {
   const [checked, setChecked] = useState(false);
   return (
     <>
-      <section className="w-[280px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl xl:max-w-screen-lg md:max-w-[700px]  sm:container">
+      <section className="w-[280px] mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl xl:max-w-screen-lg md:max-w-[700px]  sm:container">
         <div className="flex flex-col ">
-          <h1 className=" text-5xl text-center font-bold 2xl:text-[5.625rem] 2xl:mt-20 xl:mt-14 xl:text-start  md:text-7xl ">
+          <h1 className=" text-5xl mt-20 text-center font-bold 2xl:text-[5.625rem] 2xl:mt-20 xl:mt-14 xl:text-start  md:text-7xl ">
             Prestation
           </h1>
 
