@@ -38,7 +38,6 @@ export function Avis3() {
       </p>
     );
   const avis = data.page.avis;
-  console.log(data.page);
 
   return (
     <div className="flex items-center flex-col  xl:flex-row 2xl:ml-[27.3%] xl:ml-[24.4%]">
