@@ -1,0 +1,53 @@
+#MouseScroll {
+  #Path_23,
+  #Path_24 {
+    animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+  }
+  #Path_23 {
+    animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    animation-direction: alternate;
+  }
+  #Path_24 {
+    animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+svg {
+  width: 13px;
+  height: 30px;
+}
+@media screen and (min-width: 768px) {
+  svg {
+    width: 19px;
+    height: 43px;
+  }
+}
