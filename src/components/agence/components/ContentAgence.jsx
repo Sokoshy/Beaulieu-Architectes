@@ -80,7 +80,7 @@ export function ContentAgence() {
             </ul>
           </div>
         </div>
-        <div className="mt-36 mb-36  flex flex-wrap">
+        <div className="mt-36  flex flex-wrap">
           <h4 className="text-3xl text-[#f8f8f8] mb-8  sm:w-96">
             {data.page.agence.titreTroisiemeSection}
           </h4>
