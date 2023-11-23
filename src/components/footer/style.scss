@@ -1,0 +1,123 @@
+footer {
+  div#Trait {
+    content: "";
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+    height: 3px;
+    bottom: 0px;
+    border-radius: 1px;
+    max-width: 72%;
+    left: 14%;
+    background-color: var(--color-gold);
+  }
+  .Newsletter {
+    p {
+      color: var(--color-text-black);
+      margin: 0;
+      margin-left: 10px;
+      z-index: 1;
+    }
+    p:last-of-type::after {
+      content: "";
+      display: block;
+      position: relative;
+      border-radius: 10px;
+      height: 53px;
+      width: 270px;
+      left: -10px;
+      bottom: 38px;
+      background-color: var(--color-white);
+      z-index: -1;
+    }
+    .PaperPlane {
+      position: relative;
+      top: -75.5px;
+      left: 240px;
+    }
+  }
+}
+// @media screen and (min-width: 1536px) {
+//   footer {
+//     div#Trait {
+//       margin-bottom: 70px;
+//       left: 1.5%;
+//     }
+//     .Newsletter p {
+//       margin-left: 20px;
+//     }
+//     .Newsletter p:last-of-type::after {
+//       border-radius: 12px;
+//       width: 603px;
+//     }
+//     .Newsletter .PaperPlane {
+//       top: -75.5px;
+//       left: 540px;
+//     }
+//   }
+// }
+@media screen and (min-width: 1280px) {
+  footer {
+    div#Trait {
+      bottom: 70px;
+      margin-bottom: 50px;
+      left: 3.6%;
+    }
+
+    .Newsletter p {
+      margin-left: 20px;
+    }
+    .Newsletter p:last-of-type::after {
+      border-radius: 10px;
+      height: 50px;
+      width: 470px;
+      left: -20px;
+      bottom: 38px;
+    }
+    .Newsletter .PaperPlane {
+      top: -75.5px;
+      left: 420px;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    div#Trait {
+      max-width: 92.26%;
+      left: 4%;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    div#Trait {
+      max-width: 95%;
+      left: 2.5%;
+    }
+  }
+}
+@media screen and (min-width: 640px) {
+  footer {
+    div#Trait {
+      margin-bottom: 50px;
+      max-width: 80%;
+      left: 10%;
+    }
+    .Newsletter {
+      .Newsletter p {
+        margin-left: 20px;
+      }
+      .Newsletter p:last-of-type::after {
+        border-radius: 10px;
+        height: 50px;
+        width: 470px;
+        left: -20px;
+        bottom: 22px;
+      }
+      .Newsletter .PaperPlane {
+        top: -75.5px;
+        left: 200px;
+      }
+    }
+  }
+}
