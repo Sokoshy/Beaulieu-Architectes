@@ -46,7 +46,7 @@ export function Equipe() {
   const equipe = data?.page.acceuil;
 
   return (
-    <section className=" w-[300px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl 2xl:mt-36 xl:max-w-screen-lg md:max-w-[700px] md:mt-20 sm:container overflow-visible">
+    <section className=" max-w-640px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl 2xl:mt-36 xl:max-w-screen-lg md:max-w-[700px] md:mt-20 sm:container overflow-visible">
       <h2 className="text-3xl font-semibold text-center 2xl:text-[5rem] xl:text-start md:text-5xl">
         NOTRE ÉQUIPE
       </h2>
