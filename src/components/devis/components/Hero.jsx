@@ -1,5 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import MouseScroll from "../../mouse-scroll/MouseScroll";
+import ReturnTop from "../../return-top/ReturnTop";
 
 const GET_IMG_HERO_DEVIS = gql`
   query Devis($pageId: ID!) {
@@ -33,6 +34,7 @@ export function Hero() {
         Demande <br /> de devis
       </h1>
       <MouseScroll />
+      <ReturnTop />
     </section>
   );
 }

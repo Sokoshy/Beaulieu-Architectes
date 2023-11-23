@@ -1,5 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import MouseScroll from "../../mouse-scroll/MouseScroll";
+import ReturnTop from "../../return-top/ReturnTop";
 
 const GET_IMG_AGENCE = gql`
   query AgenceQuery($id: ID = "2") {
@@ -32,6 +33,7 @@ export function Hero() {
         L'agence
       </h1>
       <MouseScroll />
+      <ReturnTop />
     </section>
   );
 }

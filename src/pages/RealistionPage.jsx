@@ -7,6 +7,7 @@ import {
 } from "../components/realisation/RealisationSliderPage";
 import Nav from "../components/nav/Nav";
 import { FooterComponents } from "../components/footer/FooterComponents";
+import ReturnTop from "../components/return-top/ReturnTop";
 
 const GET_REALISATION = gql`
   query RealisationContent($slug: ID!) {
@@ -60,6 +61,7 @@ export default function RealisationPage() {
         <h1 className="text-3xl font-semibold mt-20 text-center 2xl:max-w-[45vw] 2xl:text-[2.5rem] xl:text-start xl:max-w-[75vw] md:text-5xl">
           {realisation.title}
         </h1>
+        <ReturnTop />
         <h4 className="text-xl mt-12 2xl:text-3xl xl:text-2xl xl:mt-24 ">
           Avant le projet :
         </h4>

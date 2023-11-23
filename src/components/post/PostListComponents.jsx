@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { gql, useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
 import Nav from "../nav/Nav";
+import ReturnTop from "../return-top/ReturnTop";
 
 const GET_POSTS = gql`
   query GetPosts($first: Int, $after: String) {
@@ -66,6 +67,7 @@ export function PostList() {
       <h1 className=" text-5xl mt-20 text-center font-bold 2xl:text-[5.625rem]  xl:text-start  md:text-7xl ">
         Blog
       </h1>
+      <ReturnTop />
       <div className="flex flex-col gap-5 items-center text-lg xl:flex-row xl:flex-wrap xl:gap-0 xl:items-stretch lg:text-xl  2xl:text-2xl">
         {posts.map((post, index) => (
           <Link to={`/blog/${post.slug}`} key={post.id}>

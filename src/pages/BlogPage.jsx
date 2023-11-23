@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import React from "react";
 import Nav from "../components/nav/Nav";
 import { FooterComponents } from "../components/footer/FooterComponents";
+import ReturnTop from "../components/return-top/ReturnTop";
 
 const GET_POST = gql`
   query GetPost($slug: ID!) {
@@ -68,6 +69,7 @@ export default function BlogPage() {
         <h1 className="text-3xl mt-20 font-semibold text-center 2xl:max-w-[45vw] 2xl:text-[2.5rem] xl:text-start xl:max-w-[75vw] md:text-5xl">
           {post.title}
         </h1>
+        <ReturnTop />
         <div className="flex flex-col-reverse mt-8 xl:flex-row xl:justify-center xl:mt-16">
           {post.blog.premierePartie && (
             <p className="max-w-[270px] mt-5 2xl:max-w-[782px]  2xl:mr-20 self-center 2xl:text-xl xl:max-w-[550px] xl:mr-14 xl:mt-0 sm:max-w-[450px]">
