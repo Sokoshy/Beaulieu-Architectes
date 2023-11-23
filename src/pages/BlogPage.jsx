@@ -2,6 +2,7 @@ import { gql, useQuery } from "@apollo/client";
 import { useParams } from "react-router-dom";
 import React from "react";
 import Nav from "../components/nav/Nav";
+import { FooterComponents } from "../components/footer/FooterComponents";
 
 const GET_POST = gql`
   query GetPost($slug: ID!) {
@@ -164,6 +165,7 @@ export default function BlogPage() {
             </div>
           )}
       </section>
+      <FooterComponents />
     </>
   );
 }

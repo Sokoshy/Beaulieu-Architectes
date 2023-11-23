@@ -1,3 +1,4 @@
+import { FooterComponents } from "../footer/FooterComponents";
 import Nav from "../nav/Nav";
 import { Blog } from "./components/Blog";
 import { Equipe } from "./components/Equipe";
@@ -20,6 +21,7 @@ export function HomeComponents() {
       <Avis />
       <Equipe />
       <ParleDeNous />
+      <FooterComponents />
     </>
   );
 }

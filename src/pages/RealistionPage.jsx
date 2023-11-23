@@ -6,6 +6,7 @@ import {
   RealisationSliderAvant,
 } from "../components/realisation/RealisationSliderPage";
 import Nav from "../components/nav/Nav";
+import { FooterComponents } from "../components/footer/FooterComponents";
 
 const GET_REALISATION = gql`
   query RealisationContent($slug: ID!) {
@@ -90,6 +91,7 @@ export default function RealisationPage() {
           </p>
         )}
       </section>
+      <FooterComponents />
     </>
   );
 }

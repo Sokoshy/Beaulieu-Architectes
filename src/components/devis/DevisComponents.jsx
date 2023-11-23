@@ -1,3 +1,4 @@
+import { FooterComponents } from "../footer/FooterComponents";
 import Nav from "../nav/Nav";
 import { ContentDevis } from "./components/ContentDevis";
 import { Hero } from "./components/Hero";
@@ -8,6 +9,7 @@ export function DevisComponents() {
       <Nav />
       <Hero />
       <ContentDevis />
+      <FooterComponents />
     </>
   );
 }

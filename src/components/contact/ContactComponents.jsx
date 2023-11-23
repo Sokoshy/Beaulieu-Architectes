@@ -1,3 +1,4 @@
+import { FooterComponents } from "../footer/FooterComponents";
 import Nav from "../nav/Nav";
 import { ContactInfo } from "./ContactInfo";
 import { FormRenseignement } from "./FormRenseignement";
@@ -10,6 +11,7 @@ export function ContactComponents() {
       <Hero />
       <FormRenseignement />
       <ContactInfo />
+      <FooterComponents />
     </>
   );
 }
