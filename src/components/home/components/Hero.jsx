@@ -1,7 +1,8 @@
 import "./hero.scss";
 import { gql, useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
-import Nav from "../../nav/Nav";
+import MouseScroll from "../../mouse-scroll/MouseScroll";
+import ReturnTop from "../../return-top/ReturnTop";
 
 const GET_IMG_ACCEUIL = gql`
   query PhotoAccuil {
@@ -27,7 +28,6 @@ export function Hero() {
 
   return (
     <>
-      <Nav />
       <section
         style={{ "--img": ` url('${backgroundImageUrl}')` }}
         className="Hero  bg-no-repeat bg-center bg-cover min-h-screen "
@@ -40,6 +40,8 @@ export function Hero() {
             <Link to="/agence">En savoir plus</Link>
           </button>
         </div>
+        <MouseScroll />
+        <ReturnTop />
       </section>
     </>
   );
