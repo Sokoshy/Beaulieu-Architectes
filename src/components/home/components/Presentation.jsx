@@ -55,7 +55,7 @@ export function Presentation() {
           <p className=" max-w-[330px] mt-5 mx-auto text-base 2xl:mt-7 2xl:text-2xl xl:m-0 xl:mt-6  sm:w-[450px] sm:max-w-[624px]">
             {presentation.texteBrefPresentationEntreprise}
           </p>
-          <div className=" flex flex-row mt-2 justify-center gap-8 2xl:mt-4 xl:mt-4">
+          <div className=" flex flex-row mt-2 justify-center sm:gap-8 2xl:mt-4 xl:mt-4">
             <div>
               <p className="text-center font-bold text-[40px] xl:text-5xl">
                 {presentation.chiffreAnneesDexperience}

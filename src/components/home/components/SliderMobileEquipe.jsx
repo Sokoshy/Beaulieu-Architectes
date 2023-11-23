@@ -69,7 +69,7 @@ function Slider() {
   //const isMobile = window.innerWidth < 640;
 
   return (
-    <div className="max-w-[270px] sm:max-w-sm md:max-w-md xl:hidden mx-auto mt-8">
+    <div className="max-w-[640px] md:max-w-[768px] xl:hidden mx-auto mt-8">
       <div className="slider flex justify-center overflow-hidden">
         <div className=" preview prev mr-8 ">
           <img
@@ -112,13 +112,13 @@ function Slider() {
       </div>
       <div className=" relative">
         <button
-          className="absolute bottom-[5.4vh] md:bottom-[0vh] left-4 sm:left-16 md:left-24 font-bold text-[#dcb854] text-3xl"
+          className="absolute bottom-[5.4vh] md:bottom-[0vh] left-4 sm:left-48 md:left-56 font-bold text-[#dcb854] text-3xl"
           onClick={prevSlide}
         >
           &#10094;
         </button>
         <button
-          className="absolute bottom-[5.4vh] md:bottom-[0vh] right-4 sm:right-16 md:right-24 font-bold text-[#dcb854] text-3xl"
+          className="absolute bottom-[5.4vh] md:bottom-[0vh] right-4 sm:right-48 md:right-56 font-bold text-[#dcb854] text-3xl"
           onClick={nextSlide}
         >
           &#10095;

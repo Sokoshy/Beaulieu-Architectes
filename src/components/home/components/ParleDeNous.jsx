@@ -29,7 +29,7 @@ export function ParleDeNous() {
   }
   const parleDeNous = data?.page.acceuil;
   return (
-    <section className="w-[280px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl 2xl:mt-36 xl:max-w-screen-lg md:max-w-[700px] md:mt-20 sm:container">
+    <section className="max-w-[640px] mt-8 mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl 2xl:mt-36 xl:max-w-screen-lg md:max-w-[768px] md:mt-20 sm:container">
       <h2 className=" text-3xl font-semibold uppercase text-center 2xl:text-[5rem] md:text-5xl">
         Ils parlent de nous
       </h2>

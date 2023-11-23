@@ -40,7 +40,7 @@ export function Slider() {
   const nextIndex = current === slides.length - 1 ? 0 : current + 1;
 
   return (
-    <div className="max-w-[270px] sm:max-w-sm md:max-w-md xl:hidden mx-auto mt-8">
+    <div className="max-w-[640px]  md:max-w-[768px] xl:hidden mx-auto mt-8">
       <div className="slider flex justify-center overflow-hidden">
         <div className="preview prev mr-8">
           <img
@@ -78,13 +78,13 @@ export function Slider() {
 
       <div className="relative">
         <button
-          className="absolute md:bottom-[-3vh] left-4 sm:left-16 md:left-24 font-bold text-[#dcb854] text-3xl"
+          className="absolute md:bottom-[-3vh] left-3  sm:left-48 md:left-64 font-bold text-[#dcb854] text-3xl"
           onClick={prevSlide}
         >
           &#10094;
         </button>
         <button
-          className="absolute md:bottom-[-3vh] right-4 sm:right-16 md:right-24 font-bold text-[#dcb854] text-3xl"
+          className="absolute md:bottom-[-3vh] right-3 sm:right-48 md:right-64 font-bold text-[#dcb854] text-3xl"
           onClick={nextSlide}
         >
           &#10095;
