@@ -9,7 +9,7 @@ export function FooterComponents() {
   return (
     <footer className="w-[280px} mt-16 mb-[1.875rem] mx-auto text-[#f8f8f8] 2xl:max-w-screen-2xl xl:mt-44 xl:max-w-screen-lg xl:mb-[4.375rem] md:max-w-[700px] md:mt-[4.375rem] sm:container">
       <div id="Trait"></div>
-      <div class="flex flex-col items-center 2xl:gap-[12.625rem] xl:gap-[106px] xl:flex-row xl:items-start">
+      <div className="flex flex-col items-center 2xl:gap-[12.625rem] xl:gap-[106px] xl:flex-row xl:items-start">
         <div className="w-[270px] 2xl:w-[603px] sm:w-[470px]">
           <h4 className="2xl:text-3xl text-xl">SECTEUR D'INTERVENTIONS</h4>
           <p className="mt-3.5 2xl:text-xl xl:mt-5">
