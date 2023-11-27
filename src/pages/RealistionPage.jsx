@@ -78,7 +78,7 @@ export default function RealisationPage() {
           </p>
         )}
         <h4 className="text-xl mt-12 2xl:text-3xl xl:text-2xl xl:mt-24">
-          Avant le projet :
+          Après le projet :
         </h4>
         <RealisationSliderApres />
         {realisation.realisation.paragrapheSurLaRealisation && (
