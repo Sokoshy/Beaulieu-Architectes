@@ -55,7 +55,7 @@ export function Prestation() {
         <div>
           <div className="mt-5">
             <h4 className="text-xl text-center 2xl:text-3xl xl:text-start xl:text-2xl md:text-2xl">
-              Pour les particuliers
+              Pour les professionnels
             </h4>
             <p className=" max-w-[270px] mt-2.5 text-base 2xl:text-xl sm:max-w-[450px] ">
               {prestation.texteBrefPrestationParticulier}
