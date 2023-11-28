@@ -30,9 +30,6 @@ export function ContentDevis() {
   const devis = data.page.devis;
   return (
     <section className=" mt-8 md:mt-20 2xl:mt-24 sm:container  mx-auto w-[280px] md:max-w-[700px] xl:max-w-screen-lg 2xl:max-w-screen-2xl text-[#f8f8f8]">
-      <h2 className="text-3xl font-semibold text-center 2xl:text-[5rem] md:text-5xl">
-        NOTRE ÉQUIPE
-      </h2>
       <div className="flex flex-col items-center mt-10 xl:flex-row xl:flex-wrap 2xl:gap-[136px] 2xl:mt-[134px] xl:gap-[6.4rem] md:mt-24 gap-4">
         <img
           className="rounded-lg object-cover w-[270px] h-[310px] 2xl:w-[765px] 2xl:h-[1000px] xl:h-[900px] sm:w-[600px] sm:h-[700px]"
