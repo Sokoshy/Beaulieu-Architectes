@@ -26,7 +26,7 @@ export function FooterComponents() {
           </div>
         </div>
         <div className="w-[270px] 2xl:w-[286px] mt-5 xl:w-[202px] xl:mt-[-3rem] sm:w-[470px]">
-          <div class="flex gap-8">
+          <div className="flex gap-8">
             <figure>
               <a href="https://www.houzz.fr/professionnels/architecte-d-interieur/krma-architecture-d-interieur-et-decoration-pfvwfr-pf~1227041507?">
                 <img src={Houzz} alt="Logo houzz" />
